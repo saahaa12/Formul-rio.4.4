@@ -1,0 +1,107 @@
+/* 1. Definições Gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(240, 240, 240);
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Cabeçalho */
+header {
+    background-color: rgb(0, 128, 128);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* 3. Navegação */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* 4. Botões de Navegação */
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: rgb(0, 100, 100);
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+/* 5. Efeito de Hover nos Botões */
+nav ul li a:hover {
+    background-color: rgb(0, 80, 80);
+}
+
+/* 6. Área Principal */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+/* 7. Estilização do Formulário */
+form {
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+}
+
+/* 8. Estilização dos Campos de Entrada */
+label {
+    color: rgb(0, 128, 128);
+}
+
+input[type="text"],
+input[type="email"],
+select,
+textarea,
+button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+/* 9. Estilização dos Campos Focados */
+input:focus,
+select:focus,
+textarea:focus {
+    outline: none;
+    border-color: rgb(0, 100, 100);
+}
+
+/* 10. Estilização do Botão de Envio */
+button {
+    background-color: rgb(0, 128, 128);
+    color: #fff;
+    cursor: pointer;
+}
+
+/* 11. Efeito de Hover no Botão de Envio */
+button:hover {
+    background-color: rgb(0, 100, 100);
+}
+
+/* 12. Rodapé */
+footer {
+    background-color: rgb(0, 128, 128);
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
